@@ -1,0 +1,28 @@
+{
+  "name": "hooks-webpack-plugin",
+  "version": "1.0.1",
+  "description": "A bridge plugin which helps to directly attach an action to any compiler or compilation hook in webpack.config.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NirlStudio/hooks-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "compiler",
+    "compilation",
+    "hooks"
+  ],
+  "author": "Leevi Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NirlStudio/hooks-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/NirlStudio/hooks-webpack-plugin#readme",
+  "dependencies": {
+  }
+}
