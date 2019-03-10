@@ -2,7 +2,7 @@
 Tapable hooks is flexible to work as a callback pattern. But unfortunately, when we want to quickly attach a simple action to a compiler or compilation hook, especially directly in webpack.config.js, it's not so convenient.
 The solution of this plugin is provide a compact naming convention to map both compiler and compilation hooks in a flat options object, for example:
 ```js
-{
+const options = {
   // a sync compiler hook
   beforeRun: (compiler) => {
     // ...
@@ -50,7 +50,8 @@ This plugin only supports the hooks operations. So it does not work with (very) 
 npm i -D hooks-webpack-plugin
 ```
 
-## Code in webpack.config.js, or anywhere you prefer
+## Example Code
+You can put it in webpack.config.js, or anywhere you prefer.
 ```js
 const HooksPlugin = require('hooks-webpack-plugin')
 
