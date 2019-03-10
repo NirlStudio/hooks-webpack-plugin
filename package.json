@@ -1,6 +1,6 @@
 {
   "name": "hooks-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A bridge plugin which helps to directly attach an action to any compiler or compilation hook in webpack.config.js.",
   "main": "index.js",
   "scripts": {
