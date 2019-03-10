@@ -42,13 +42,15 @@ const options = {
 }
 ```
 
-***compatibility***
-This plugin only supports the hooks operations. So it does not work with (very) old versions of webpack.
+***compatibility:***
+*This plugin only supports the hooks operations. So it does not work with (very) old versions of webpack.*
+
 
 ## Installation
 ```shell
 npm i -D hooks-webpack-plugin
 ```
+
 
 ## Example Code
 You can put it in webpack.config.js, or anywhere you prefer.
@@ -75,13 +77,17 @@ const config = {
 }
 ```
 
+
 ## Available Hooks
-please refer to webpack's documentation.
+Please refer to webpack's documentation.
+
 ### [Compiler Hooks](https://webpack.js.org/api/compiler-hooks)
 ### [Compilation Hooks](https://webpack.js.org/api/compilation-hooks/)
 
+
 ## Bugs & Pull Requests
 You are welcome to report bugs, give suggestions and contributions. Cheers.
+
 
 ## License
 This project is [licensed](LICENSE.md) under the [MIT](https://opensource.org/licenses/MIT) license.
